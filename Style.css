@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* ------------Navber Section */
+.demo{
+    background-color: #1abc9c;
+    transition:  background-color 5s;
+}
+.demo:hover{
+    background-color: purple;
+}
+.demo img{
+    height: 80px;
+    padding-left: 100px;
+    border-radius: 50%;
+    
+}
+.demo img:hover{
+    background-color: purple;
+}
+.demo .btn{
+  margin-left: 950px;
+  transition:  background-color 5s;
+}
+.btn:hover{
+    background-color: purple;
+    color: white;
+}
+#form{
+    display: none;
+    background-color: #bdc3c7;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    box-shadow: 5px 5px 40px palegreen;
+}
+form input, form textarea{
+    width: 90%;
+    border: 0;
+    outline: none;
+  
+    padding: 15px;
+    margin: 15px 10px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+/* ----------------------Welcome Section */
+.half-width{
+    display: flex;
+    background-color: #1abc9c;
+    border-radius: 5px;
+}
+.half-width img{
+    width: 100%;
+    background-color: #1abc9c;
+}
+
+
+  
+   
+  
+
+.welcome-section h1{
+    text-align: center;
+    
+    color: #ff004f;
+    font-size: 50px;
+   font-weight: bold;
+  
+   padding-top: 20px;
+}
+.welcome-section p{
+    padding: 3%;
+    color: white;
+}
+.contact{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+/* -------------------------Meet my team-----------------s */
+.team{
+    margin-top: 30px;
+}
+.text-part{
+    text-align: center;
+   
+
+}
+
+.text-part h2{
+    color: #ff004f;
+    font-size: 40px;
+    font-weight: bold;
+}
+.container{
+    margin-top: 50px;
+}
+.bg-color{
+    background-color:  #fceae8;
+}
+.col-md-7{
+    padding-left: 20%;
+    padding-top: 5%;
+}
+.col-md-7 h3{
+    font-weight: bold;
+}
+span.title{
+    color: #ff004f;
+}
