@@ -8,26 +8,59 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
  <div id="login">
-    <section class="demo">
-        <img src="Images/logo2.png" alt="">
-        <button type="button" class="btn btn-primary" id="sign-up">Sign Up</button>
-    </section>
+  <section class="navber">
+    <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><span class="text-warning">TRR-</span><span class="text-danger">Creation</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#team">Team</a>
+              </li>
+            </li>  <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#discover">Discover</a>
+            </li> 
+               <li class="nav-item">
+
+                <a class="nav-link active" aria-current="page" href="#services">Services</a>
+              </li> 
+              <li class="nav-item">
+
+                <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
+              </li>  <li class="nav-item"> <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+              </li>
+            
+            
+          </div>
+        </div>
+      </nav>
+  </section>
   
 
     <!-- -------------Welcome Section -->
 
-    <section class="container">
+  
+
+    <section class="container" id="home">
       <div class="half-width">
         <div class="welcome-section">
             <h1>Welcome</h1>
         <p>Welcome to the TRR-Creation  customer community.We're honored that you'vechoosen to work with us.It's our almost piority to ensure you have an excellent experience with our [Product / service] and team from day one, so we've complied this packet  of resource to provide a framework and clear path for success in the first and beyond. 
            
         </p>
-        <button type="button" class="btn btn-primary contact">Contact Us</button>
+        <button type="button" class="btn btn-primary contact" id="sign-up">Sign Up</button>
         
         </div>
         <div>
@@ -38,59 +71,283 @@
     </section>
 
     <!-- -----------------------Meet My team -->
-    <section class="team">
+    <section class="team" id="team">
         <div class="text-part">
-            <h2>Meet My Team</h2>
-        <p>Below, you'll find your key points of contact at TRR-creation.</p>
+          
+            <h2>Meet My Team <i class="bi bi-people-fill"></i></h2>
+        <p>Below, you'll find your key points of contact at <br> <span class="text-warning">TRR-</span><span class="text-danger">Creation</span>.</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 card-1">
+          <div class="col ">
+            <div class="card h-100">
+              <img src="Images/team1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center text-white fw-bold"> Nahuel Molina</h5>
+                <p class="card-text text-center">Graphics Designer</p>
+                <p class="social text-center">
+                  <i class="bi bi-twitter text-danger  mx-1 "></i>
+                  <i class="bi bi-facebook text-danger  mx-1 "></i>
+                  <i class="bi bi-linkedin text-danger  mx-1 "></i>
+                  <i class="bi bi-instagram text-danger  mx-1 "></i>
+                 
+                </p>
+              </div>
+              <div class="card-footer">
+             
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="Images/team4.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center text-white fw-bold"> Leandro Parendes</h5>
+                <p class="card-text text-center" >UI/UX Designer</p>
+                <p class="social text-center">
+                  <i class="bi bi-twitter text-danger  mx-1 "></i>
+                  <i class="bi bi-facebook text-danger  mx-1 "></i>
+                  <i class="bi bi-linkedin text-danger  mx-1 "></i>
+                  <i class="bi bi-instagram text-danger  mx-1 "></i>
+                 
+                </p>
+              </div>
+              <div class="card-footer">
+              
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="Images/team3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center text-white fw-bold"> Rodrigo De Paul</h5>
+                <p class="card-text text-center"> Web Designer</p>
+                <p class="social text-center">
+                  <i class="bi bi-twitter text-danger  mx-1 "></i>
+                  <i class="bi bi-facebook text-danger  mx-1 "></i>
+                  <i class="bi bi-linkedin text-danger  mx-1 "></i>
+                  <i class="bi bi-instagram text-danger  mx-1 "></i>
+                 
+                </p>
+              </div>
+              <div class="card-footer">
+             
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="container">
-            <div id="carouselExampleSlidesOnly" class="carousel slide bg-color" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="row ">
-                        <div class="col-md-7 ">
-                            <h3>Oliviya</h3>
-                            <p> <span class="title">Graphics Designer</span></p>
-                            <p>Mail: Oliviya@gmail.com</p>
-                            <p>Phone: 46644747</p>
-                            
-                        </div>
-                        <div class="col-md-5">
-                            <img src="Images/team1.png" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-7">
-                            <h3>Santiago</h3>
-                            <p> <span class="title">UI/UX Designer</span></p>
-                            <p>Mail: Santiagoa@gmail.com</p>
-                            <p>Phone: 4656567</p>
-                        </div>
-                        <div class="col-md-5">
-                            <img src="Images/team2.png" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-7">
-                            <h3>Tariq</h3>
-                            <p> <span class="title">Web Designer</span></p>
-                            <p>Mail: Tariq@gmail.com</p>
-                            <p>Phone: 33335757</p>
-                        </div>
-                        <div class="col-md-5">
-                            <img src="Images/team3.png" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-        </div>
+        
+
+        
     </section>
+
+    <!-- ---------------------------Live  Agent------------------- -->
+    <section class="live-agent" id="discover">
+   <div class="agent">
+    <div class="discover-people">
+      <p class="text-warning">Testimonial</p>
+    <h2 class="fw-bold">Discover why <br> our customers <br> love working <br> with LiveAgent</h2>
+    <button type="button" class="btn btn-primary" id="sign-up">Sign up for Free</button>
+    </div>
+    <div class="client " >
+      
+     <div class="d-flex justify-content-between">
+      <div>
+        <img src="Images/client1.png" alt="" class="rounded-circle">
+       </div>
+       <div class="client-text">
+        <i class="bi-thin bi-star text-warning"></i>
+        <i class="bi-thin bi-star text-warning"></i>
+        <i class="bi-thin bi-star text-warning"></i>
+        <i class="bi-thin bi-star text-warning"></i> <i class="bi-thin bi-star text-warning"></i>
+        <p class="last-p">"Live agent helped us to achieve 2 important goals:increase customer satisfaction and sales".</p>
+        <p class="client-name"> Karl Deleterich</p>
+       </div>
+     </div>
+     
+     
+    </div>
+   </div>
+   <div class="client2 " >
+      
+    <div class="d-flex justify-content-between">
+     <div>
+       <img src="Images/client2.png" alt="" class="rounded-circle client-img">
+      </div>
+      <div class="client-text2">
+        <i class="bi-thin bi-star text-warning"></i>
+        <i class="bi-thin bi-star text-warning"></i>
+        <i class="bi-thin bi-star text-warning"></i>
+        <i class="bi-thin bi-star text-warning"></i> <i class="bi-thin bi-star text-warning"></i>
+       <p class="last-p">"We have been using  LiveAgent since last year and we really satiesfied with it".</p>
+       <p class="client-name"> Razban Saba</p>
+      </div>
+    </div>
+    
+    
+   </div>
+      </section>
+     <!-- -----------------------Services Section ----------->
+     <section id="services"  class="services section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center pb-5">
+
+              <h2>Our Services</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Cupiditate ex consectetur sint soluta aliquid vero.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row card-2">
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center text-white bg-info pb-2">
+              <div class="card-body">
+                <i class="bi bi-subtract"></i>
+                <h3 class="card-title">Best Quality </h3>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quis amet qui illo pariatur enim assumenda maxime soluta eum, cumque inventore iure atque? Iste, fuga.</p>
+                <button class="btn btn-warning text-white">
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center text-white bg-info pb-2">
+              <div class="card-body">
+                <i class="bi bi-slack"></i>
+                <h3 class="card-title">Sustainability </h3>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quis amet qui illo pariatur enim assumenda maxime soluta eum, cumque inventore iure atque? Iste, fuga.</p>
+                <button class="btn btn-warning text-white">
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center text-white bg-info pb-2">
+              <div class="card-body">
+                <i class="bi bi-playstation"></i>
+                <h3 class="card-title">Integrity </h3>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quis amet qui illo pariatur enim assumenda maxime soluta eum, cumque inventore iure atque? Iste, fuga.</p>
+                <button class="btn btn-warning text-white">
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+     </section>
+
+     <!-- -----------------------Project Section -->
+     <section id="projects">
+
+    <div  class="project-text">
+      <div class="section-header text-center pb-5">
+
+        <h2>Our Project</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Cupiditate ex consectetur sint soluta aliquid vero.</p>
+      </div>
+    </div>
+     
+        <div class="row row-cols-1 row-cols-md-3 g-4 card-1">
+          <div class="col ">
+            <div class="card h-100">
+              <img src="Images/p2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class=" text-center fw-bold"> Graphics Designer</h5>
+                <p class="text-center">Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Et dolorem alias laborum sit. Sit, maxime!</p>
+           
+               
+              </div>
+              <div class="card-footer">
+             
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="Images/p1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="text-center  fw-bold"> UI/UX Designer</h5>
+                <p class="text-center">Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Et dolorem alias laborum sit. Sit, maxime!</p>
+              
+               
+              </div>
+              <div class="card-footer">
+              
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="Images/p3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="text-center  fw-bold"> Web Designer</h5>
+                <p class="text-center">Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Et dolorem alias laborum sit. Sit, maxime!</p>
+     
+               
+              </div>
+              <div class="card-footer">
+             
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+
+     </section>
+
+     <!-- -------------------------Contact Section------------------ -->
+     <section >
+      <div class="contact-container">
+        <div class="row">
+          <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p>
+
+
+              <i class="bi bi-send-fill"></i>tawfikrezarafy@gmail.com</p>
+              <p><i class="bi bi-telephone-fill"></i>01571771432</p>
+             <div class="social-icon">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-twitter"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+             </div>
+            
+          </div>
+          <div class="contact-right">
+           <form name="submit-to-google-sheet">
+              <input type="text" name ="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+           </form>
+           <span id="msg"></span>
+              
+          </div>
+      </div>
+     </section>
+     <!-- --------------------------Copyright -->
+
+     <section class="copyright">
+      <div>
+        <p> <p>
+          Copyright ⓒ Rafy. Made it with <i class="bi bi-heart c-icon"></i> by Tawfik Reza
+      </p></p>
+      </div>
+     </section>
+
+
+
+
  </div>
 
 

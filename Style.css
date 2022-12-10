@@ -4,8 +4,15 @@ body{
     font-family: 'Poppins', sans-serif;
 
 }
+.login{
+    background-color: black;
+}
 
 /* ------------Navber Section */
+
+.logo{
+    border-radius: 10px;
+}
 .demo{
     background-color: #1abc9c;
     transition:  background-color 5s;
@@ -23,13 +30,15 @@ body{
     background-color: purple;
 }
 .demo .btn{
-  margin-left: 950px;
+
   transition:  background-color 5s;
 }
 .btn:hover{
     background-color: purple;
     color: white;
 }
+
+
 #form{
     display: none;
     background-color: #bdc3c7;
@@ -85,12 +94,27 @@ form input, form textarea{
 }
 
 /* -------------------------Meet my team-----------------s */
+.card-1{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.card{
+   
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    background: rgb(221, 214, 214);
+}
+.card:hover{
+    transform: scale(1.05);
+}
 .team{
     margin-top: 30px;
 }
 .text-part{
     text-align: center;
-   
+    box-shadow: 8px 8px 40px palegreen;
+    width: 50%;
+    margin-left:20%;
+    border-radius: 5px;
 
 }
 
@@ -114,4 +138,172 @@ form input, form textarea{
 }
 span.title{
     color: #ff004f;
+}
+/* ----------------------------Agent Section */
+.live-agent{
+    margin-bottom: 30px;
+}
+#sign-up{
+    margin-top: 30px;
+}
+
+.agent{
+    display: flex;
+ 
+    margin-top: 5%;
+
+   margin-left: 5%;
+}
+.client{
+    margin-left: 20%;
+    height: fit-content;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 40px grey;
+    padding: 30px;
+    border-radius: 3px;
+    transition: background 0.5s , transfrom 0.5s;
+    
+}
+.client:hover{
+    background-color: #2ecc71;
+    transform: translate(10px);
+}
+.client img{
+    width: 100px;
+}
+.client-text{
+    padding-left: 10px;
+    padding-top: 20px;
+    font-weight: 400;
+}
+.client2{
+    height: fit-content;
+    margin-left: 39%;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 40px grey;
+    border-radius: 3px;
+    transition: background 0.5s , transfrom 0.5s;
+}
+.client2:hover{
+    background-color: #2ecc71;
+    transform: translate(10px);
+
+}
+
+.client2 img{
+    width: 150px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.client-text2{
+    padding-top: 40px;
+    padding-right: 150px;
+    padding-left: 0;
+    font-weight: 400;
+
+}
+.client-name{
+    font-weight: bold;
+    color: #ff004f;
+}
+/* -----------------------------Services Section */
+.services.card-body i{
+    font-size: 50px;
+
+}
+.card-2{
+    box-shadow: 8px 8px 40px grey;
+    
+}
+.card-title{
+    background-color: #ff004f;
+}
+/* ----------------------------Project Section------------------ */
+.project-text{
+    margin-top: 30px;
+}
+.card-3 img{
+    width: 20%;
+}
+/* -------------------------------Contact ----------------- */
+.contact-container{
+    padding: 10px 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #262626;
+    color: #fff;
+}
+
+.contact-left{
+    flex-basis: 35%;
+
+}
+.contact-right{
+    flex-basis: 60%;
+    
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i{
+    color: #ff004f;
+     margin-right: 15px;
+     font-size: 25px;
+}
+.social-icon{
+    margin-top: 30px;
+
+}
+.social-icon a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transfrom 0.5s;
+}
+.social-icon a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+.btn.btn2{
+    display: inline-block;
+    background: #ff004f;
+
+}
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+/* ---------------------copyright */
+.copyright{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+ .c-icon{
+    color: #ff004f;
+  
+ }
+
+
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+	.navbar .nav-item:hover .nav-link{ color: #fff; font-weight: bold; }
+	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+	.navbar .dropdown-menu.fade-up{ top:180%;  }
+	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
 }
